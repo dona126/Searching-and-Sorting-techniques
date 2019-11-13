@@ -20,7 +20,7 @@ void main()
 void insertionSort(int n,int a[])
 	{
 		int i,temp,j;
-		for(i=0;i<n;i++)
+		for(i=1;i<n;i++)
 			{
 
 				temp=a[i];
@@ -34,7 +34,7 @@ void insertionSort(int n,int a[])
 				a[j+1]=temp;
 			}
 		printf("Result is:\n");
-		for(i=1;i<n;i++)
+		for(i=0;i<n;i++)
 			{
 				printf("%d\n",a[i]);
 			}
