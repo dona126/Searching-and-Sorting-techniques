@@ -20,7 +20,7 @@ void main()
 void insertionSort(int n,int a[])
 	{
 		int i,temp,j;
-		for(i=1;i<n;i++)
+		for(i=0;i<n;i++)
 			{
 
 				temp=a[i];
