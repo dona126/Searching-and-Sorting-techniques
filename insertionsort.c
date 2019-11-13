@@ -11,7 +11,7 @@ void main()
 		printf("Enter the number of elements to be sorted:");
 		scanf("%d",&n);
 		printf("Enter elements:");
-		for(i=1;i<n;i++)
+		for(i=0;i<n;i++)
 			{
 				scanf("%d",&a[i]);
 			}
